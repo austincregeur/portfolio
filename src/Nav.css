@@ -1,0 +1,28 @@
+
+
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #282c34;
+    color:white;
+}
+
+.flexbox-container h3 {
+    color:turquoise;
+    padding: 25px;
+    margin:0;
+    transition: font-size 300ms ease-in-out;
+    
+}
+
+.flexbox-container h3:hover {
+    background-color: darkslategray;
+    font-size: 1.5em;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+

@@ -1,0 +1,27 @@
+.project-container {
+    margin-top: 5em;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:.25rem;
+    border-radius: 1rem;
+    border-style: solid;
+    width: fit-content;
+    padding:1rem;
+}
+
+.project-description {
+    display: flex;
+    justify-content: space-evenly;
+}
+.project-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+h4{
+    margin-top:0;
+    margin-left: .25rem;
+    margin-right: .25rem;
+}
